@@ -6,31 +6,39 @@
 //  Copyright (c) 2013 Orlyapps Janzen & Strauß GbR. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "DetailViewController.h"
 
 
-@interface ViewController ()
+@interface DetailViewController ()
 
 @end
 
-@implementation ViewController
+@implementation DetailViewController
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
 	
+    
+
+}
+- (void)setCharacter:(FFCharacter *)character {
+   
+    
     [self loading:YES];
-    [[FFLodestone sharedInstance] fetchCharacterWithId:@"1674571" completionHandler:^(FFCharacter *character, NSError *error) {
+    [[FFLodestone sharedInstance] fetchCharacterWithId:character.identifier completionHandler:^(FFCharacter *character, NSError *error) {
+        
         if(error != nil) {
             [self displayError:error];
             return;
         }
+        
         [self loading:NO];
-        self.character = character;
+        _character = character;
         [self setupContent];
     }];
+    
 }
-
 - (void)setupContent {
     self.title = self.character.name;
     self.nameLabel.text = self.character.name;

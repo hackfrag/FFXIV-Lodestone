@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4814837417858E8600FF3EDB /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 4814837317858E8600FF3EDB /* README.md */; };
+		48520BED17858BB400AA48F5 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48520BEC17858BB400AA48F5 /* QuartzCore.framework */; };
+		48520BEF17858BD200AA48F5 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48520BEE17858BD200AA48F5 /* CoreImage.framework */; };
 		48615A021784441100443BFE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48615A011784441100443BFE /* Foundation.framework */; };
 		48615A041784441100443BFE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48615A031784441100443BFE /* CoreGraphics.framework */; };
 		48615A061784441100443BFE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48615A051784441100443BFE /* UIKit.framework */; };
@@ -15,9 +18,9 @@
 		48615A121784441100443BFE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 48615A111784441100443BFE /* AppDelegate.m */; };
 		48615A151784441100443BFE /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48615A131784441100443BFE /* Main_iPhone.storyboard */; };
 		48615A181784441100443BFE /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48615A161784441100443BFE /* Main_iPad.storyboard */; };
-		48615A1B1784441100443BFE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 48615A1A1784441100443BFE /* ViewController.m */; };
+		48615A1B1784441100443BFE /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 48615A1A1784441100443BFE /* DetailViewController.m */; };
 		48615A1D1784441100443BFE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48615A1C1784441100443BFE /* Images.xcassets */; };
-		48615A241784441100443BFE /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48615A231784441100443BFE /* XCTest.framework */; };
+		48615A241784441100443BFE /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48615A231784441100443BFE /* XCTest.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		48615A251784441100443BFE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48615A011784441100443BFE /* Foundation.framework */; };
 		48615A261784441100443BFE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48615A051784441100443BFE /* UIKit.framework */; };
 		48615A2E1784441100443BFE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 48615A2C1784441100443BFE /* InfoPlist.strings */; };
@@ -53,6 +56,12 @@
 		48615B2617844C5B00443BFE /* XPathQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 48615B2117844C5B00443BFE /* XPathQuery.m */; };
 		48615B2717844C5B00443BFE /* XPathQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 48615B2117844C5B00443BFE /* XPathQuery.m */; };
 		48615B2917844C6D00443BFE /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 48615B2817844C6D00443BFE /* libxml2.dylib */; };
+		4899D71D17858147009FF634 /* CharacterCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4899D71C17858147009FF634 /* CharacterCell.m */; };
+		4899D725178582C5009FF634 /* JASidePanelController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4899D722178582C5009FF634 /* JASidePanelController.m */; };
+		4899D726178582C5009FF634 /* UIViewController+JASidePanel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4899D724178582C5009FF634 /* UIViewController+JASidePanel.m */; };
+		4899D72917858378009FF634 /* SidePanelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4899D728178582E2009FF634 /* SidePanelViewController.m */; };
+		4899D72A1785877B009FF634 /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4899D71F17858195009FF634 /* SearchViewController.m */; };
+		48B38B2917858D4700EE65D4 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48B38B2817858D4700EE65D4 /* MapKit.framework */; };
 		48C5CA97178565F400865676 /* UIViewController+Loading.m in Sources */ = {isa = PBXBuildFile; fileRef = 48C5CA90178565F400865676 /* UIViewController+Loading.m */; };
 		48C5CA98178565F400865676 /* UIViewController+Loading.m in Sources */ = {isa = PBXBuildFile; fileRef = 48C5CA90178565F400865676 /* UIViewController+Loading.m */; };
 		48C5CA9B178565F400865676 /* UIColor+TKCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 48C5CA94178565F400865676 /* UIColor+TKCategory.m */; };
@@ -88,6 +97,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4814837317858E8600FF3EDB /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		48520BEC17858BB400AA48F5 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		48520BEE17858BD200AA48F5 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
 		486159FE1784441100443BFE /* Lodestone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lodestone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		48615A011784441100443BFE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		48615A031784441100443BFE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -100,8 +112,8 @@
 		48615A111784441100443BFE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		48615A141784441100443BFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
 		48615A171784441100443BFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
-		48615A191784441100443BFE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		48615A1A1784441100443BFE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		48615A191784441100443BFE /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		48615A1A1784441100443BFE /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 		48615A1C1784441100443BFE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		48615A221784441100443BFE /* LodestoneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LodestoneTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		48615A231784441100443BFE /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -140,6 +152,17 @@
 		48615B2017844C5B00443BFE /* XPathQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XPathQuery.h; path = hpple/XPathQuery.h; sourceTree = "<group>"; };
 		48615B2117844C5B00443BFE /* XPathQuery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XPathQuery.m; path = hpple/XPathQuery.m; sourceTree = "<group>"; };
 		48615B2817844C6D00443BFE /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
+		4899D71B17858147009FF634 /* CharacterCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CharacterCell.h; sourceTree = "<group>"; };
+		4899D71C17858147009FF634 /* CharacterCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CharacterCell.m; sourceTree = "<group>"; };
+		4899D71E17858195009FF634 /* SearchViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SearchViewController.h; sourceTree = "<group>"; };
+		4899D71F17858195009FF634 /* SearchViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SearchViewController.m; sourceTree = "<group>"; };
+		4899D721178582C5009FF634 /* JASidePanelController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JASidePanelController.h; path = JASidePanels/JASidePanels/Source/JASidePanelController.h; sourceTree = "<group>"; };
+		4899D722178582C5009FF634 /* JASidePanelController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JASidePanelController.m; path = JASidePanels/JASidePanels/Source/JASidePanelController.m; sourceTree = "<group>"; };
+		4899D723178582C5009FF634 /* UIViewController+JASidePanel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIViewController+JASidePanel.h"; path = "JASidePanels/JASidePanels/Source/UIViewController+JASidePanel.h"; sourceTree = "<group>"; };
+		4899D724178582C5009FF634 /* UIViewController+JASidePanel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+JASidePanel.m"; path = "JASidePanels/JASidePanels/Source/UIViewController+JASidePanel.m"; sourceTree = "<group>"; };
+		4899D727178582E2009FF634 /* SidePanelViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SidePanelViewController.h; sourceTree = "<group>"; };
+		4899D728178582E2009FF634 /* SidePanelViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SidePanelViewController.m; sourceTree = "<group>"; };
+		48B38B2817858D4700EE65D4 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		48C5CA8F178565F400865676 /* UIViewController+Loading.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Loading.h"; sourceTree = "<group>"; };
 		48C5CA90178565F400865676 /* UIViewController+Loading.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Loading.m"; sourceTree = "<group>"; };
 		48C5CA93178565F400865676 /* UIColor+TKCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+TKCategory.h"; sourceTree = "<group>"; };
@@ -184,6 +207,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				48B38B2917858D4700EE65D4 /* MapKit.framework in Frameworks */,
+				48520BEF17858BD200AA48F5 /* CoreImage.framework in Frameworks */,
+				48520BED17858BB400AA48F5 /* QuartzCore.framework in Frameworks */,
 				48615B2917844C6D00443BFE /* libxml2.dylib in Frameworks */,
 				48615B1A1784448000443BFE /* MobileCoreServices.framework in Frameworks */,
 				48615B181784447900443BFE /* SystemConfiguration.framework in Frameworks */,
@@ -214,6 +240,7 @@
 				48615A391784444400443BFE /* libs */,
 				48615A001784441100443BFE /* Frameworks */,
 				486159FF1784441100443BFE /* Products */,
+				4814837317858E8600FF3EDB /* README.md */,
 			);
 			sourceTree = "<group>";
 		};
@@ -229,6 +256,9 @@
 		48615A001784441100443BFE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				48B38B2817858D4700EE65D4 /* MapKit.framework */,
+				48520BEE17858BD200AA48F5 /* CoreImage.framework */,
+				48520BEC17858BB400AA48F5 /* QuartzCore.framework */,
 				48615B2817844C6D00443BFE /* libxml2.dylib */,
 				48615B191784448000443BFE /* MobileCoreServices.framework */,
 				48615B171784447900443BFE /* SystemConfiguration.framework */,
@@ -245,13 +275,12 @@
 			children = (
 				48C5CA9F1785660200865676 /* Views */,
 				48C5CA8E178565D600865676 /* Categories */,
+				4899D71A17856E96009FF634 /* Controller */,
 				48615B0E1784444B00443BFE /* Lodestone */,
 				48615A101784441100443BFE /* AppDelegate.h */,
 				48615A111784441100443BFE /* AppDelegate.m */,
 				48615A131784441100443BFE /* Main_iPhone.storyboard */,
 				48615A161784441100443BFE /* Main_iPad.storyboard */,
-				48615A191784441100443BFE /* ViewController.h */,
-				48615A1A1784441100443BFE /* ViewController.m */,
 				48615A1C1784441100443BFE /* Images.xcassets */,
 				48615A081784441100443BFE /* Supporting Files */,
 			);
@@ -290,6 +319,7 @@
 		48615A391784444400443BFE /* libs */ = {
 			isa = PBXGroup;
 			children = (
+				4899D720178582BC009FF634 /* JASidePanels */,
 				48D820DC178567B900C8EE68 /* SDWebImage */,
 				48615B1B17844C4D00443BFE /* hpple */,
 				48615A3D1784444400443BFE /* AFNetworking */,
@@ -349,6 +379,30 @@
 			name = hpple;
 			sourceTree = "<group>";
 		};
+		4899D71A17856E96009FF634 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				48615A191784441100443BFE /* DetailViewController.h */,
+				48615A1A1784441100443BFE /* DetailViewController.m */,
+				4899D71E17858195009FF634 /* SearchViewController.h */,
+				4899D71F17858195009FF634 /* SearchViewController.m */,
+				4899D727178582E2009FF634 /* SidePanelViewController.h */,
+				4899D728178582E2009FF634 /* SidePanelViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		4899D720178582BC009FF634 /* JASidePanels */ = {
+			isa = PBXGroup;
+			children = (
+				4899D721178582C5009FF634 /* JASidePanelController.h */,
+				4899D722178582C5009FF634 /* JASidePanelController.m */,
+				4899D723178582C5009FF634 /* UIViewController+JASidePanel.h */,
+				4899D724178582C5009FF634 /* UIViewController+JASidePanel.m */,
+			);
+			name = JASidePanels;
+			sourceTree = "<group>";
+		};
 		48C5CA8E178565D600865676 /* Categories */ = {
 			isa = PBXGroup;
 			children = (
@@ -367,6 +421,8 @@
 			children = (
 				48C5CAA01785660D00865676 /* DDProgressView.h */,
 				48C5CAA11785660D00865676 /* DDProgressView.m */,
+				4899D71B17858147009FF634 /* CharacterCell.h */,
+				4899D71C17858147009FF634 /* CharacterCell.m */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -486,6 +542,7 @@
 			files = (
 				48615A181784441100443BFE /* Main_iPad.storyboard in Resources */,
 				48615A1D1784441100443BFE /* Images.xcassets in Resources */,
+				4814837417858E8600FF3EDB /* README.md in Resources */,
 				48615A151784441100443BFE /* Main_iPhone.storyboard in Resources */,
 				48615A0C1784441100443BFE /* InfoPlist.strings in Resources */,
 			);
@@ -511,12 +568,15 @@
 				48D820FA178567B900C8EE68 /* MKAnnotationView+WebCache.m in Sources */,
 				48C5CA9D178565F400865676 /* UIViewController+Error.m in Sources */,
 				48615AA01784444500443BFE /* AFImageRequestOperation.m in Sources */,
+				4899D726178582C5009FF634 /* UIViewController+JASidePanel.m in Sources */,
 				48D820FB178567B900C8EE68 /* NSData+GIF.m in Sources */,
-				48615A1B1784441100443BFE /* ViewController.m in Sources */,
+				48615A1B1784441100443BFE /* DetailViewController.m in Sources */,
 				48615AA61784444500443BFE /* AFPropertyListRequestOperation.m in Sources */,
 				48D820FD178567B900C8EE68 /* SDWebImageCompat.m in Sources */,
 				48D820FC178567B900C8EE68 /* SDImageCache.m in Sources */,
 				48D82105178567B900C8EE68 /* UIImage+MultiFormat.m in Sources */,
+				4899D72917858378009FF634 /* SidePanelViewController.m in Sources */,
+				4899D725178582C5009FF634 /* JASidePanelController.m in Sources */,
 				48D82104178567B900C8EE68 /* UIImage+GIF.m in Sources */,
 				48D820FF178567B900C8EE68 /* SDWebImageDownloader.m in Sources */,
 				48615A121784441100443BFE /* AppDelegate.m in Sources */,
@@ -525,6 +585,7 @@
 				48C5CAA21785660D00865676 /* DDProgressView.m in Sources */,
 				48615B131784445400443BFE /* FFCharacter.m in Sources */,
 				48615AAA1784444500443BFE /* AFXMLRequestOperation.m in Sources */,
+				4899D72A1785877B009FF634 /* SearchViewController.m in Sources */,
 				48615AA21784444500443BFE /* AFJSONRequestOperation.m in Sources */,
 				48615B2417844C5B00443BFE /* TFHppleElement.m in Sources */,
 				48D82100178567B900C8EE68 /* SDWebImageDownloaderOperation.m in Sources */,
@@ -533,6 +594,7 @@
 				48D82102178567B900C8EE68 /* SDWebImagePrefetcher.m in Sources */,
 				48D82106178567B900C8EE68 /* UIImage+WebP.m in Sources */,
 				48D82101178567B900C8EE68 /* SDWebImageManager.m in Sources */,
+				4899D71D17858147009FF634 /* CharacterCell.m in Sources */,
 				48615B2217844C5B00443BFE /* TFHpple.m in Sources */,
 				48615A9E1784444500443BFE /* AFHTTPRequestOperation.m in Sources */,
 				48615B151784445400443BFE /* FFLodestone.m in Sources */,
@@ -695,6 +757,7 @@
 				GCC_PREFIX_HEADER = "Lodestone/Lodestone-Prefix.pch";
 				HEADER_SEARCH_PATHS = "$(SDKROOT)/usr/include/libxml2";
 				INFOPLIST_FILE = "Lodestone/Lodestone-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -709,6 +772,7 @@
 				GCC_PREFIX_HEADER = "Lodestone/Lodestone-Prefix.pch";
 				HEADER_SEARCH_PATHS = "$(SDKROOT)/usr/include/libxml2";
 				INFOPLIST_FILE = "Lodestone/Lodestone-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};

@@ -7,3 +7,6 @@
 [submodule "Lodestone/libs/SDWebImage"]
 	path = Lodestone/libs/SDWebImage
 	url = https://github.com/rs/SDWebImage.git
+[submodule "Lodestone/libs/JASidePanels"]
+	path = Lodestone/libs/JASidePanels
+	url = https://github.com/gotosleep/JASidePanels.git

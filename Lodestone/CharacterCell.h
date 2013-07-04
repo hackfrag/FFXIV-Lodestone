@@ -1,17 +1,15 @@
 //
-//  ViewController.h
+//  CharacterCell.h
 //  Lodestone
 //
-//  Created by Florian Strauss on 03.07.13.
+//  Created by Florian Strauss on 04.07.13.
 //  Copyright (c) 2013 Orlyapps Janzen & Strauß GbR. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
-#import "FFLodestone.h"
 
-@interface ViewController : UIViewController
+@interface CharacterCell : UITableViewCell
 
-@property (weak, nonatomic) FFCharacter *character;
 @property (weak, nonatomic) IBOutlet UILabel *nameLabel;
 @property (weak, nonatomic) IBOutlet UILabel *serverLabel;
 @property (weak, nonatomic) IBOutlet UIImageView *thumbnailImage;

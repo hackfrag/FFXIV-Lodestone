@@ -14,9 +14,11 @@
 
 @interface FFCharacter : NSObject
 
+@property (nonatomic, strong) NSString *identifier;
 @property (nonatomic, strong) NSString *name;
 @property (nonatomic, strong) NSString *server;
 @property (nonatomic, strong) NSString *mainLVL;
+@property (nonatomic, strong) NSString *region;
 @property (nonatomic, strong) NSString *race;
 @property (nonatomic, strong) NSString *nameday;
 @property (nonatomic, strong) NSString *guardian;
@@ -24,10 +26,8 @@
 @property (nonatomic, strong) NSString *grandCompany; // TODO
 @property (nonatomic, strong) NSString *gcRank; // TODO
 @property (nonatomic, strong) NSString *freeCompany; // TODO
-
 @property (nonatomic, strong) NSURL *picture;
 @property (nonatomic, strong) NSURL *thumbnail;
-
 @property (nonatomic, strong) NSDictionary *stats;
 @property (nonatomic, strong) NSDictionary *attributes;
 @property (nonatomic, strong) NSDictionary *elements;
