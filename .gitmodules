@@ -1,0 +1,9 @@
+[submodule "Lodestone/libs/AFNetworking"]
+	path = Lodestone/libs/AFNetworking
+	url = https://github.com/AFNetworking/AFNetworking.git
+[submodule "Lodestone/libs/hpple"]
+	path = Lodestone/libs/hpple
+	url = https://github.com/topfunky/hpple.git
+[submodule "Lodestone/libs/SDWebImage"]
+	path = Lodestone/libs/SDWebImage
+	url = https://github.com/rs/SDWebImage.git

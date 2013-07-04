@@ -7,7 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "FFLodestone.h"
 
 @interface ViewController : UIViewController
+
+@property (weak, nonatomic) FFCharacter *character;
+@property (weak, nonatomic) IBOutlet UILabel *nameLabel;
+@property (weak, nonatomic) IBOutlet UILabel *serverLabel;
+@property (weak, nonatomic) IBOutlet UIImageView *thumbnailImage;
 
 @end

@@ -8,6 +8,14 @@
 
 #import <XCTest/XCTest.h>
 
+
+#import <SystemConfiguration/SystemConfiguration.h>
+#import <MobileCoreServices/MobileCoreServices.h>
+
+#import "AFNetworking.h"
+
+#import "FFLodestone.h"
+
 @interface LodestoneTests : XCTestCase
 
 @end
@@ -30,7 +38,7 @@
 
 - (void)testExample
 {
-    XCTFail(@"No implementation for \"%s\"", __PRETTY_FUNCTION__);
+ 
 }
 
 @end

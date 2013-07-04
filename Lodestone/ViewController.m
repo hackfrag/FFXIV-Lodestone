@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 
+
 @interface ViewController ()
 
 @end
@@ -17,13 +18,27 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+	
+    [self loading:YES];
+    [[FFLodestone sharedInstance] fetchCharacterWithId:@"1674571" completionHandler:^(FFCharacter *character, NSError *error) {
+        if(error != nil) {
+            [self displayError:error];
+            return;
+        }
+        [self loading:NO];
+        self.character = character;
+        [self setupContent];
+    }];
 }
 
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (void)setupContent {
+    self.title = self.character.name;
+    self.nameLabel.text = self.character.name;
+    self.serverLabel.text = self.character.server;
+    
+    [self.thumbnailImage setImageWithURL:self.character.thumbnail
+                        placeholderImage:nil];
 }
+
 
 @end
