@@ -1,6 +1,8 @@
 FFXIV-Lodestone
 ===============
 
+!!! EARLY DEVELOPMENT STAGE !!! 
+
 FFXIV-Lodestone for iOS
 
 Features
